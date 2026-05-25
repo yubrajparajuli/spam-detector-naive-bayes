@@ -1,0 +1,20 @@
+# virtual environment
+.venv/
+
+# backups
+outputs/figures_backup/
+outputs/model_backup/
+
+# python
+__pycache__/
+*.pyc
+*.pyo
+
+# jupyter
+.ipynb_checkpoints/
+
+# os
+.DS_Store
+
+# uv
+.uv/
