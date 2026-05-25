@@ -9,6 +9,7 @@ class DataLoader:
 
     def load(self) -> pd.DataFrame:
         df = pd.read_csv(self.data_path, encoding="latin-1")
+        print("shape before cleaning:", df.shape)
         return df
 
     def clean(self, df: pd.DataFrame) -> pd.DataFrame:
